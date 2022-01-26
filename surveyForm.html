@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>  
+<head> 
+  <link href="styles/surveyForm.css" rel="stylesheet" type="text/css">
+</head> 
+<body>
+  <div id="container">
+  <h1 id="title"> Survey Form
+  </h1>
+  <p id="description"> Take a few minutes to respond this survey about movie watching habits.
+  </p>
+  <form id="survey-form">
+    <label id="name-label"> Name </label>
+      <input type="text" id="name" placeholder="Type your name" required >  
+    <br>
+    <label id="email-label"> Email </label>
+      <input type="email" id="email" placeholder="Type your email" required> 
+    <br>
+    <label id="number-label"> Age </label>
+      <input type="number" id="number" min=4 max=120 placeholder="Type your age"> 
+    <br>
+    <label for="cars">Choose your favorite way of watching a film:</label>
+      <select name="movie-options" id="dropdown">
+        <option disabled selected value>Select your favorite option</option>
+        <option value="cinema">Going to cinema</option>
+        <option value="streming">Service of streming</option>
+        <option value="internet">Download from web</option>
+      </select>
+    <br>
+    <label> Pick your favorite gendre </label>
+     <label for="comedy"> <input id="comedy" type="radio" name="movie-gendre" value="comedy">Comedy </label>
+    <label for="drama"> <input id="drama" type="radio"name="movie-gendre" value="drama">Drama </label>
+    <label for="action"> <input id="action" type="radio"name="movie-gendre" value="action">Action </label>
+    <label for="terror"> <input id="terror" type="radio"name="movie-gendre" value="action">Terror </label>
+    <label for="ciencefiction"> <input id="ciencefiction" type="radio"name="movie-gendre" value="gendre">Cience fiction </label>
+    <br>
+     <label> Indicate the streming services that you use </label>
+    <divclass="input-group-text">
+    <label for="netflix"> <input id="netflix" type="checkbox" name="streming-service" value="netflix">Netflix </label>
+    <label for="hbo"> <input id="hbo"type="checkbox"name="streming-service" value="hbo">Hbo Go </label>
+    <label for="amazon"> <input id="amazon"type="checkbox"name="streming-service"value="amazon">Amazon Prime </label>
+    <label for="disney"> <input id="disney"type="checkbox"name="streming-service" value="disney">Disney Plus </label>
+    <label for="apple"> <input id="apple"type="checkbox"name="streming-service" value="apple">Apple Tv </label>
+    <br>
+<textarea id="text-area">
+Enter aditional coments here...</textarea>
+<button type="submit" id="submit">Send</button>
+  </form>
+ </div>
+</body>
+</html> 

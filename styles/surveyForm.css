@@ -1,0 +1,42 @@
+body {
+  background: url("https://images.pexels.com/photos/3921045/pexels-photo-3921045.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat fixed center;
+  height:100%;
+  width:100%;
+  color: white;
+}
+
+#container {
+  margin: 100px;
+  background-color: grey;
+  padding:20px;
+  text-align: left;
+}
+
+#title {
+  text-align:center;
+}
+
+label,input,select,option {
+  display: flex;
+}
+
+[type="text"],[type="email"], [type="number"], [type="submit"] {
+  width:100%;
+}
+
+#dropdown{
+  width: 100%;
+}
+
+#text-area {
+  width: 100%;
+  height: 50px;
+}
+
+#submit {
+  background: green;
+}
+
+#description {
+  font-family: Sans-serif;
+}
